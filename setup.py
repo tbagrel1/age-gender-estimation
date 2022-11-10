@@ -7,7 +7,7 @@ with open("requirements.txt", "r", encoding="utf-8") as req_file:
     reqs = [l.strip() for l in req_file if l.strip() and not l.strip().startswith("#")]
 
 setuptools.setup(
-    name="age-gender-estimation",
+    name="agegenderestimation",
     version="0.6",
     author="Yusuke Uchida",
     author_email="yu4u.github.io",
