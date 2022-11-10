@@ -8,7 +8,7 @@ with open("requirements.txt", "r", encoding="utf-8") as req_file:
 
 setuptools.setup(
     name="age-gender-estimation-trcp",
-    version="0.7",
+    version="0.8",
     author="Yusuke Uchida",
     author_email="yu4u.github.io",
     description="Keras implementation of a CNN network for age and gender estimation",
